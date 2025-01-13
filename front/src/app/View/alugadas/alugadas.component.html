@@ -1,0 +1,15 @@
+<app-header></app-header>
+<div class="content">
+  <div class="titulo">
+    <div></div>
+    <div><h1>Alugados</h1></div>
+    <div><button (click)="entrarCadastro()">Novo imóvel</button></div>
+  </div>
+    <div class="tabela-itens" *ngIf="imoveisAlugados.length > 0; else noImoveis">
+      <app-linha-imovel *ngFor="let imovel of imoveisAlugados" [imovel]="imovel" (imovelDeletado)="buscarImoveisAlugados()"></app-linha-imovel>
+    </div>
+    <ng-template #noImoveis>
+      <p>Nenhum imóvel alugado no momento.</p>
+    </ng-template>
+</div>
+<app-footer></app-footer>

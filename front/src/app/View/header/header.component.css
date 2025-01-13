@@ -1,0 +1,84 @@
+.page{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+.content{
+  margin-top: 15px;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  justify-self: center;
+}
+.page-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #131313;
+  border-radius: 10px;
+}
+
+.page-header div {
+  padding: 30px 30px 20px 30px;
+}
+
+.img-header {
+  width: 113px;
+  height: 15.5px;
+}
+
+.img-header:hover{
+  cursor: pointer;
+}
+
+.componentes {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.componentes p {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+.componentes p:hover {
+  color: #73aaf8;
+  cursor: pointer;
+}
+
+.sair-button{
+  display: flex;
+  align-items: center;
+  width: 113px;
+}
+
+.sair-button a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+.sair-button a:hover {
+  cursor: pointer;
+  color: #ff5555;
+}
+
+.dropdown {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.dropdown select {
+  width: 100%;
+}

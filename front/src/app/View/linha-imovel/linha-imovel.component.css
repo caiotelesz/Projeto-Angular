@@ -1,0 +1,130 @@
+.linha-imovel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  background-color: #131313;
+  width: 100%;
+  align-items: center;
+  border-radius: 20px;
+  height: 200px;
+  font-weight: bold;
+  font-family: 'Font-padrao';
+}
+
+.linha-imovel>div{
+  width: 30%;
+  justify-content: center;
+}
+
+.nome-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.linha-nome{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+p, span{
+  margin: 10;
+  color: #fff;
+}
+
+.IconDis{
+  width: 50px;
+}
+
+.IconButton{
+  width: 20px;
+}
+
+.IconButton:hover{
+  width: 20px;
+  cursor: pointer;
+}
+
+.linha-info{
+  text-align: center;
+  padding: 10px;
+}
+
+.linha-disponivel{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.linha-nome{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.linha-nome>div{
+  display: flex;
+  justify-content: center;
+  width: 180px;
+  text-align: center;
+}
+
+.linha-nome>div>p{
+  text-align: center;
+}
+
+.IconTipo{
+  height: 150px;
+}
+
+.linha-button{
+  height: 100%;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  width: 100%;
+  max-width: 200px;
+  background-color: #6f6f6f;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: 100;
+  font-family: 'Font-padrao';
+}
+button:hover{
+  cursor: pointer;
+  background-color: #525252;
+  transition: 0.5s;
+}
+
+.linha-icone-button{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.linha-button>div{
+  display: flex;
+  align-items: center;
+  height: 30%;
+}
+
+.content-valor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #3488FF;
+  padding: 0px 10px 0px 10px;
+  width: 80px;
+}
+.content-valor>p{
+  margin: 0px;
+}
