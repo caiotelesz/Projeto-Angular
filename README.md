@@ -71,11 +71,11 @@ O objetivo do sistema, desenvolvido como trabalho acadêmico, é permitir à Fut
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/caiotelesz/futuresx.git
+   git clone https://github.com/caiotelesz/futurex.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd futuresx
+   cd futurex
    ```
 3. Instale as dependências do front:
    ```bash
