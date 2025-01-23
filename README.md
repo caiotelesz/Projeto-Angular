@@ -1,4 +1,4 @@
-# Loja de Imóveis - FUTURESX
+# Loja de Imóveis - FuturesX
 
 ## Introdução
 
