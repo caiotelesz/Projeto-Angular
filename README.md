@@ -84,7 +84,7 @@ O objetivo do sistema, desenvolvido como trabalho acadêmico, é permitir à Fut
 4. Navegue até o diretório do backend e abra pelo IntelliJ IDEA e Execute-o
 5. Navegue pelo cmd até achar o diretório do frontend
   ```bash
-    cd featurex/front
+    cd futurex/front
   ```
 6. Inicie o servidor:
    ```bash
